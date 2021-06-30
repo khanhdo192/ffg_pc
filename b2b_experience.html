@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta http-equiv="content-language" content="vi" />
+  <meta http-equiv="audience" content="General" />
+  <meta name="referrer" content="always" />
+  <meta name="revisit-after" content="1 days" />
+  <meta name="distribution" content="Global" />
+  <meta http-equiv="REFRESH" content="3600" />
+  <title>B2B Experience - Raise Festival For Good</title>
+   <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Futura">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+  <link href="css/common.css" type="text/css" rel="stylesheet" media="all">
+  <link href="css/styles.css" type="text/css" rel="stylesheet" media="all">
+  <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/common.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      $.ajax({
+        url: API_URL + "about-us",
+        success: function (result) {
+          if (result) {
+            // console.log(result.highlightVideo);
+            // $("#video").attr('src', result.highlightVideo +
+            //   "?autoplay=1&wmode=opaque&amp;modestbranding=1&amp;showinfo=0");
+            // $('#myModal').modal({
+            //   backdrop: false
+            // });
+
+          }
+        }
+      });
+
+      // $('#myModal').on('hide.bs.modal', function (e) {
+      //   $(".embed-responsive").find('iframe').attr('src', '');
+      // });
+
+      // $('#myModal').on('hide.bs.modal', function (e) {
+      //   $("#video").attr('src', $videoSrc);
+      // })
+    });
+  </script>
+</head>
+
+<body>
+
+  <section class="b2b-experience-page">
+    <div class="image-left">
+       <img src="img/data/FFG Logo.png">
+    </div>
+    <div class="image-center">
+       <img src="img/data/B2b-NEW.png">
+       <div class="button-menu">
+          <img src="img/data/Menu Button.png">
+       </div>
+    </div>
+    <div class="image-right">
+       <img src="img/data/Group 1.png">
+    </div>
+      <h1>REGISTRATION</h1>
+      <span class="conten-one"><p>Experience and connect with Social Enterprises providing products and services for Corporations, Social Service Agencies, and Higher Learning Institutions.</p></span>
+      <span class="conten-two"><p>Learn how you can make Social Enterprises ​ a part of your organisation’s sustainability journey today.</p></span>
+  </section><!-- /#wrapper -->
+</body>
+
+</html>

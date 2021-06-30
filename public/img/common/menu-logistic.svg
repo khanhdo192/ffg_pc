@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="188" height="115.155" viewBox="0 0 188 115.155">
+  <defs>
+    <filter id="LOGISTICS" x="0" y="55.155" width="188" height="60" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_327" data-name="Group 327" transform="translate(-501.062 -633.367)">
+    <g transform="matrix(1, 0, 0, 1, 501.06, 633.37)" filter="url(#LOGISTICS)">
+      <text id="LOGISTICS-2" data-name="LOGISTICS" transform="translate(1.5 55.66)" fill="#1d0777" font-size="25" font-family="Futura-Bold, Futura" font-weight="700"><tspan x="23.23" y="27">LOGISTICS</tspan></text>
+    </g>
+    <g id="Statue">
+      <image id="Rectangle_486" data-name="Rectangle 486" width="66" height="73" transform="translate(561.916 633.367)" opacity="0.2" xlink:href="data:image/png;base64,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" style="mix-blend-mode: multiply;isolation: isolate"/>
+      <g id="Group_326" data-name="Group 326">
+        <g id="Group_325" data-name="Group 325">
+          <rect id="Rectangle_487" data-name="Rectangle 487" width="47.328" height="14.069" transform="translate(568.465 678.306)" fill="#1d0777"/>
+          <g id="Group_324" data-name="Group 324">
+            <rect id="Rectangle_488" data-name="Rectangle 488" width="41.44" height="6.183" transform="translate(571.409 639.023)" fill="#a49ac3"/>
+            <rect id="Rectangle_489" data-name="Rectangle 489" width="33.827" height="33.1" transform="translate(575.216 645.235)" fill="#5f4e95"/>
+            <rect id="Rectangle_490" data-name="Rectangle 490" width="14.034" height="1.366" transform="translate(585.112 649.777)" fill="#a49ac3"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
